@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>Algorithms.App</AssemblyName>
+    <RootNamespace>Algorithms.App</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Algorithms.Multiply\Algorithms.Multiply.csproj" />
+  </ItemGroup>
+
+</Project>
